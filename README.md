@@ -63,8 +63,8 @@ pip install numpy pandas seaborn matplotlib yfinance scikit-learn torch torchtyp
 ## Usage
 1. **Clone the repository**:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone git@github.com:b14ucky/stock-prediction.git
+    cd stock-prediction
     ```
 2. **Run the Jupyter notebook**: Open the notebook in Jupyter or Google Colab and run all cells to execute the data preparation, model training, and evaluation steps.
 
