@@ -27,10 +27,10 @@ The goal of this project is to predict Apple's stock closing prices using histor
 - We filter out data before January 1, 2005, as the prices before this date show little variation.
 - The data is normalized using `MinMaxScaler` to improve the performance of the neural network.
 
-1. **Data Splitting**:
+3. **Data Splitting**:
 - The data is split into training and testing sets, with the last 182 days reserved for testing.
 
-1. **Tensor Conversion**:
+4. **Tensor Conversion**:
 - The data is converted into `torch.Tensor` format, reshaped appropriately for input to the LSTM model.
 
 ## Model Architecture
